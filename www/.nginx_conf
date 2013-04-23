@@ -1,0 +1,1 @@
+rewrite ^/script/([a-zA-Z0-9_/]+)$  /run_script.php?script=$1&$query_string last;
