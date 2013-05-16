@@ -18,7 +18,7 @@
 //        }
 
         public function Redis(){
-            return \Players\NoSQL\Redis::instance();
+            return \Players\NoSQL\Redis::instance( $spotId = 1 );
         }
 
         public function DatabaseConnection(){
